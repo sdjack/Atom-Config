@@ -1,0 +1,45 @@
+"*":
+  core:
+    disabledPackages: [
+      "language-gfm"
+      "markdown-preview"
+    ]
+    ignoredNames: [
+      ".git"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "failcoder-syntax"
+    ]
+    uriHandlerRegistration: "always"
+  editor:
+    fontFamily: "Fira Code"
+    fontSize: 11
+    lineHeight: 1.4
+    softWrap: true
+  "exception-reporting":
+    userId: "5e3bd6fb-2299-4025-a90b-15bc275c7ccc"
+  "goto-definition":
+    performanceMode: true
+  "isotope-ui":
+    matchEditorFont: true
+    minimalMode: true
+    tabSizing: "Minimum"
+  "linter-ui-default":
+    showPanel: true
+  "markdown-preview-plus":
+    previewConfig:
+      activatePreviewWithEditor: true
+  "markdown-writer":
+    fileExtension: ".md"
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "predawn-ui":
+    colourlessIcons: false
+  "prettier-atom":
+    useEslint: true
+  welcome:
+    showOnStartup: false
